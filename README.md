@@ -25,10 +25,17 @@ The first thing we will do is create the role of Supreme Admin. With thise role,
 <img src="https://i.imgur.com/t7pNklJ.png"/><br />
 <img src="https://i.imgur.com/IeVX11J.png"/><br />
 <img src="https://i.imgur.com/7WHb3sg.png"/><br />
+<h2>Configure Departments</h2><br/>
 From here, we will create a new Department for our System Administrators. From the Admin panel, click on the Agents menu and select Departments to create a new Department. <br />
+<h2>Configure Teams</h2>
+In addition to our Level I Support Team (which was automatically created), we will need to create a new Level II Support Team. To do this, switch to the Admin panel and click the Teams tab. At the bottom, click "Add New Team" and create the Level II Support Team.<br />
+<h2>Configure Agents</h2>
 Now, we need to create our workers, or Agents. They will be responsible for responding to and resolving incoming tickets. To do this, make sure you are viewing osTicket from the Admin panel. Open the Agents tab and click on Add New Agent. Each agent will have different assigned responsibilities. For the sake of this lab, we will name them Jane Doe and John Doe. <br />
+<h2>Configure Users</h2>
 Next, we will need to create users who are able to submit tickets, so that Jane and John can access them. Switch over to he Agents panel, click on the Agents tab, and select "Add User." For the sake of this lab, we will just use the names Ken and Karen. <br />
+<h2>Configure SLA</h2>
 We will need to create SLAs (Service Level Agreements) for this portion of the lab as well. SLAs categorize tickets from least to most urgent. They will also have time frames. In order to do this, switch back over to the Admin panel. Click on the Manage tab and select "Add New SLA Plan." In this lab, we will create three new SLA plans: Sev-A (1 hour, 24/7), Sev-B (4 hours, 24/7) and Sev-C (8 hours, business hours). <br />
+<h2>Create Help Topics</h2>
 The last thing we will do is create Help Topics that will be submitted by our users who are having IT related issues. Each topic will be different with different levels of severity and time frames. To create a new Help Topic, switch over to the Admin panel. Click on the Manage tab. From there, click on Help Topics and then click "Add New Help Topic." For the sake of this lab, we will create four different tickets: Personal Computer Issues, Password Request, Business Critical Outage, and Equipment Reset. <br />
 <h2>Final Word</h2>
 osTicket configurations are now set up and complete. we have set up our very own ticketing system as if this were a real life situation. We can now assess each Help Topic from the Administration perspective and assign roles as needed. Click <a href="https://github.com/joshmadakorcc/ticket-lifecycle">here</a> to continue. 
